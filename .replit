@@ -1,18 +1,24 @@
 language = "python3"
-entrypoint = "main.py"
-run = "python main.py"
+entrypoint = "app.py"
+run = "python app.py"
+hidden = [".env", "*.pyc", ".DS_Store", "__pycache__"]
 
 [nix]
 channel = "stable-22_11"
 
 [env]
 PYTHONPATH = "${PYTHONPATH}:${workspaceFolder}"
-FLASK_APP = "main.py"
+FLASK_APP = "app.py"
 FLASK_ENV = "production"
+PORT = "443"  # Replit uses port 443 for HTTPS
 
-[languages.python3]
-pattern = "**/*.py"
-syntax = "python"
+[packager]
+language = "python3"
+[packager.features]
+enabledForHosting = true
+packageSearch = true
+guessImports = true
 
-[languages.python3.languageServer]
-start = ["pylsp"]
+[server]
+host = "0.0.0.0"
+port = "443"
