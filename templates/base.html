@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#3b82f6">
+    <title>Language Portal - {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <script>
+        // Apply theme immediately
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/" class="nav-link {% if request.path == '/' %}active{% endif %}">
+                <span class="material-icons-round">dashboard</span> Dashboard
+            </a></li>
+            <li><a href="/study" class="nav-link {% if request.path == '/study' %}active{% endif %}">
+                <span class="material-icons-round">school</span> Study
+            </a></li>
+            <li><a href="/words" class="nav-link {% if request.path == '/words' %}active{% endif %}">
+                <span class="material-icons-round">book</span> Words
+            </a></li>
+            <li><a href="/sessions" class="nav-link {% if request.path == '/sessions' %}active{% endif %}">
+                <span class="material-icons-round">history</span> Sessions
+            </a></li>
+            <li><a href="/settings" class="nav-link {% if request.path == '/settings' %}active{% endif %}">
+                <span class="material-icons-round">settings</span> Settings
+            </a></li>
+            <li><a href="{{ url_for('about') }}" class="nav-link {% if request.path == '/about' %}active{% endif %}">
+                <span class="material-icons-round">info</span> About
+            </a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content-wrapper">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

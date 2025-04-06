@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "kanji": "食べる",
+    "romaji": "taberu",
+    "english": "to eat",
+    "group": "Core Verbs"
+  },
+  {
+    "id": 2,
+    "kanji": "飲む",
+    "romaji": "nomu",
+    "english": "to drink",
+    "group": "Core Verbs"
+  },
+  {
+    "id": 3,
+    "kanji": "大きい",
+    "romaji": "ookii",
+    "english": "big",
+    "group": "Core Adjectives"
+  },
+  {
+    "id": 4,
+    "kanji": "見る",
+    "romaji": "miru",
+    "english": "to see",
+    "group": "Core Verbs"
+  },
+  {
+    "id": 5,
+    "kanji": "小さい",
+    "romaji": "chiisai",
+    "english": "small",
+    "group": "Core Adjectives"
+  },
+  {
+    "id": 6,
+    "kanji": "猫",
+    "romaji": "neko",
+    "english": "cat",
+    "group": "Basic Nouns"
+  },
+  {
+    "id": 7,
+    "kanji": "犬",
+    "romaji": "inu",
+    "english": "dog",
+    "group": "Basic Nouns"
+  }
+]

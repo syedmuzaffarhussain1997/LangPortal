@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="dashboard">
+    <div class="dashboard-header">
+        <div class="welcome-section">
+            <h1>Welcome to Language Portal</h1>
+            <p class="subtitle">Track your learning progress</p>
+        </div>
+        <div class="quick-actions">
+            <button id="start-studying" class="primary-button">
+                <span class="material-icons-round">play_arrow</span>
+                <span class="button-text">Start Session</span>
+            </button>
+            <button onclick="window.location.href='/word-history'" class="secondary-button">
+                <span class="material-icons-round">analytics</span>
+                <span class="button-text">Progress</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="stats-overview">
+        <div class="stat-card">
+            <div class="stat-icon-wrapper">
+                <span class="material-icons-round">local_fire_department</span>
+            </div>
+            <div class="stat-content">
+                <h3>Study Streak</h3>
+                <p id="study-streak">0 days</p>
+                <div class="streak-indicator"></div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon-wrapper">
+                <span class="material-icons-round">trending_up</span>
+            </div>
+            <div class="stat-content">
+                <h3>Success Rate</h3>
+                <p id="success-rate">0%</p>
+                <div class="progress-mini"></div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon-wrapper">
+                <span class="material-icons-round">psychology</span>
+            </div>
+            <div class="stat-content">
+                <h3>Words Mastered</h3>
+                <p id="words-mastered">0 words</p>
+                <span class="trend positive">+0 this week</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h3>Learning Progress</h3>
+                <span class="card-actions">
+                    <button class="icon-button">
+                        <span class="material-icons-round">more_vert</span>
+                    </button>
+                </span>
+            </div>
+            <div class="progress-section">
+                <div class="progress-header">
+                    <span>Overall Completion</span>
+                    <span id="progress-percentage">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h3>Recent Activity</h3>
+                <span class="card-actions">
+                    <button class="icon-button" onclick="window.location.href='/sessions'">
+                        <span class="material-icons-round">open_in_new</span>
+                    </button>
+                </span>
+            </div>
+            <div id="recent-sessions" class="activity-list scrollable"></div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h3>Word Groups</h3>
+                <span class="card-actions">
+                    <button class="icon-button" onclick="window.location.href='/words'">
+                        <span class="material-icons-round">edit</span>
+                    </button>
+                </span>
+            </div>
+            <div id="word-groups" class="word-groups-grid"></div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h3>Weekly Performance</h3>
+                <span class="card-actions">
+                    <button class="icon-button">
+                        <span class="material-icons-round">date_range</span>
+                    </button>
+                </span>
+            </div>
+            <div id="weekly-chart" class="performance-chart"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

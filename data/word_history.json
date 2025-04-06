@@ -1,0 +1,1129 @@
+{
+  "1": {
+    "kanji": "食べる",
+    "romaji": "taberu",
+    "attempts": [
+      {
+        "sessionId": 1,
+        "sessionName": "Session_Test",
+        "timestamp": "2025-03-19T21:21:23.123Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 1,
+        "sessionName": "Session_Test",
+        "timestamp": "2025-03-19T21:21:39.182Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 1,
+        "sessionName": "Session_Test",
+        "timestamp": "2025-03-19T21:21:55.244Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 1,
+        "sessionName": "Session_Test",
+        "timestamp": "2025-03-19T21:22:01.084Z",
+        "input": "taberu",
+        "correct": true
+      }
+    ]
+  },
+  "word_2": {
+    "kanji": "飲む",
+    "romaji": "nomu",
+    "english": "to drink",
+    "firstSeen": "2025-03-19T23:24:51.726Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_4",
+        "timestamp": "2025-03-19T23:24:51.726Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_4",
+        "timestamp": "2025-03-19T23:24:53.123Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_4",
+        "timestamp": "2025-03-19T23:25:01.027Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:32:51.372Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:32:53.381Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:05.292Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:09.417Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:15.623Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:16.962Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:18.260Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-19T23:33:19.409Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:39.605Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:41.665Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:51.696Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:43.035Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:40.765Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:04.015Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:12.096Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:27.860Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_1": {
+    "kanji": "食べる",
+    "romaji": "taberu",
+    "english": "to eat",
+    "firstSeen": "2025-03-24T01:11:34.438Z",
+    "attempts": [
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:34.438Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:37.579Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:55.691Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:59.595Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:12:01.427Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:12:05.402Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:12:09.346Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:12:11.099Z",
+        "input": "taberu",
+        "correct": true
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:12:15.274Z",
+        "input": "taberu",
+        "correct": true
+      }
+    ]
+  },
+  "word_4": {
+    "kanji": "見る",
+    "romaji": "miru",
+    "english": "to see",
+    "firstSeen": "2025-03-24T01:11:45.327Z",
+    "attempts": [
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:45.327Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:47.550Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:48.981Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 3,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-03-24T01:11:53.336Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-24T01:25:54.023Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:27.156Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:33.325Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:45.383Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 7,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T10:12:48.231Z",
+        "input": "romaji",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:17.378Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:39.172Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:47.925Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:55.865Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:37.708Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:54.792Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_5": {
+    "kanji": "二",
+    "romaji": "ni",
+    "english": "two",
+    "firstSeen": "2025-03-24T01:25:52.020Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-24T01:25:52.020Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:25.160Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:28.535Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 7,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T10:12:45.905Z",
+        "input": "romaji",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:31:02.056Z",
+        "input": "ew",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:27.384Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:28.628Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:05.978Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:25.966Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_12": {
+    "kanji": "水",
+    "romaji": "mizu",
+    "english": "water",
+    "firstSeen": "2025-03-24T01:25:56.286Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-24T01:25:56.286Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:23.093Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:13.607Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:48.902Z",
+        "input": "sedsds",
+        "correct": false
+      }
+    ]
+  },
+  "word_10": {
+    "kanji": "来る",
+    "romaji": "kuru",
+    "english": "to come",
+    "firstSeen": "2025-03-24T01:25:58.112Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_5",
+        "timestamp": "2025-03-24T01:25:58.112Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:22.420Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:23.752Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:31:00.584Z",
+        "input": "ewewe",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:31:07.917Z",
+        "input": "ewe",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:24.646Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:31.536Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:32.880Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:45.534Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:18.118Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:33.590Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:50.150Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:43:04.276Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_15": {
+    "kanji": "飲",
+    "romaji": "Simple",
+    "english": "Simple",
+    "firstSeen": "2025-03-24T02:18:17.828Z",
+    "attempts": [
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:17.828Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:40.287Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:49.571Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:25.110Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:56.828Z",
+        "input": "sdsd",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:58.332Z",
+        "input": "sds",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:52.007Z",
+        "input": "turbeo",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:13.717Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:15.138Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:21.432Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:22.854Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:53.793Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:16.200Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:46.763Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_6": {
+    "kanji": "明日",
+    "romaji": "ashita",
+    "english": "tomorrow",
+    "firstSeen": "2025-03-24T02:18:19.566Z",
+    "attempts": [
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:19.566Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:31.372Z",
+        "input": "tebruor",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:53.048Z",
+        "input": "sdsd",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:41.103Z",
+        "input": "dd",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:58.148Z",
+        "input": "ewewe",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:30.261Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:49.788Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:31.965Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:44.125Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:43:00.264Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_13": {
+    "kanji": "三",
+    "romaji": "san",
+    "english": "three",
+    "firstSeen": "2025-03-24T02:18:21.198Z",
+    "attempts": [
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:21.198Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:41.703Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:46.877Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:48.082Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:11.451Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:47.201Z",
+        "input": "tabajas",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:31:04.096Z",
+        "input": "ew",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:36.822Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:43.879Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:07.742Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_11": {
+    "kanji": "小さい",
+    "romaji": "chiisai",
+    "english": "small",
+    "firstSeen": "2025-03-24T02:18:29.209Z",
+    "attempts": [
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:29.210Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:38.254Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:14.945Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:21.037Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:55.017Z",
+        "input": "dsdsd",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:54.187Z",
+        "input": "edwewe",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:52.101Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:01.775Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:09.954Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:19.858Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:40.202Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_3": {
+    "kanji": "家",
+    "romaji": "ie",
+    "english": "house",
+    "firstSeen": "2025-03-24T02:18:31.741Z",
+    "attempts": [
+      {
+        "sessionId": 5,
+        "sessionName": "Session_Test_6",
+        "timestamp": "2025-03-24T02:18:31.741Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:27.165Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 9,
+        "sessionName": "Session_Test",
+        "timestamp": "2025-04-04T17:38:20.851Z",
+        "input": "romahji",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:30.144Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_9": {
+    "kanji": "行く",
+    "romaji": "iku",
+    "english": "to go",
+    "firstSeen": "2025-04-03T16:57:09.863Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:09.863Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:20.264Z",
+        "input": "turbo",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:39.713Z",
+        "input": "dfdffd",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:30:55.893Z",
+        "input": "ewe",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:25.937Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:35.891Z",
+        "input": "iku",
+        "correct": true
+      }
+    ]
+  },
+  "word_16": {
+    "kanji": "本",
+    "romaji": "Hon",
+    "english": "Book",
+    "firstSeen": "2025-04-03T16:57:16.306Z",
+    "attempts": [
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:16.306Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 4,
+        "sessionName": "Session_Test_7",
+        "timestamp": "2025-04-03T16:57:17.733Z",
+        "input": "taberu",
+        "correct": false
+      },
+      {
+        "sessionId": 15,
+        "sessionName": "Session_Test_3",
+        "timestamp": "2025-04-04T21:31:06.404Z",
+        "input": "ew",
+        "correct": false
+      },
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:34.851Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:21.971Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:34.791Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:52.624Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_7": {
+    "kanji": "学生",
+    "romaji": "gakusei",
+    "english": "student",
+    "firstSeen": "2025-04-04T12:03:51.138Z",
+    "attempts": [
+      {
+        "sessionId": 8,
+        "sessionName": "Session_Test_1",
+        "timestamp": "2025-04-04T12:03:51.138Z",
+        "input": "sddssd",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:41.887Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:57.633Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:13.979Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:36:23.933Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  },
+  "word_14": {
+    "kanji": "昨日",
+    "romaji": "kinou",
+    "english": "yesterday",
+    "firstSeen": "2025-04-05T22:31:19.551Z",
+    "attempts": [
+      {
+        "sessionId": 16,
+        "sessionName": "Muzaffar_Test",
+        "timestamp": "2025-04-05T22:31:19.551Z",
+        "input": "turberu",
+        "correct": false
+      },
+      {
+        "sessionId": 17,
+        "sessionName": "Muzaffar_2",
+        "timestamp": "2025-04-05T22:35:59.791Z",
+        "input": "iku",
+        "correct": false
+      },
+      {
+        "sessionId": 14,
+        "sessionName": "Muzaffar_3",
+        "timestamp": "2025-04-05T22:42:57.113Z",
+        "input": "iku",
+        "correct": false
+      }
+    ]
+  }
+}

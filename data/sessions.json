@@ -1,0 +1,723 @@
+[
+  {
+    "name": "Session_Test_7",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-03T21:56:48.866041",
+    "end_time": null,
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 4
+  },
+  {
+    "name": "Session_Test_8",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-04T00:49:51.338992",
+    "end_time": null,
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 5
+  },
+  {
+    "name": "Session_Test",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-04T01:33:13.462373",
+    "end_time": "2025-04-03T20:33:33.108Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 6,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-04T15:12:20.808836",
+    "end_time": "2025-04-04T10:13:46.854Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 7,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test_1",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-04T17:03:09.418558",
+    "end_time": "2025-04-04T12:04:02.357Z",
+    "words_reviewed": [
+      {
+        "word": {
+          "id": 9,
+          "kanji": "行く",
+          "romaji": "iku",
+          "english": "to go",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:20.266Z",
+        "input": "turbo"
+      },
+      {
+        "word": {
+          "id": 6,
+          "kanji": "明日",
+          "romaji": "ashita",
+          "english": "tomorrow",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:31.373Z",
+        "input": "tebruor"
+      },
+      {
+        "word": {
+          "id": 13,
+          "kanji": "三",
+          "romaji": "san",
+          "english": "three",
+          "group": "Numbers",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:47.208Z",
+        "input": "tabajas"
+      },
+      {
+        "word": {
+          "id": 12,
+          "kanji": "水",
+          "romaji": "mizu",
+          "english": "water",
+          "group": "Basic Nouns",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:48.903Z",
+        "input": "sedsds"
+      },
+      {
+        "word": {
+          "id": 7,
+          "kanji": "学生",
+          "romaji": "gakusei",
+          "english": "student",
+          "group": "Basic Nouns",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:51.139Z",
+        "input": "sddssd"
+      },
+      {
+        "word": {
+          "id": 6,
+          "kanji": "明日",
+          "romaji": "ashita",
+          "english": "tomorrow",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:53.050Z",
+        "input": "sdsd"
+      },
+      {
+        "word": {
+          "id": 11,
+          "kanji": "小さい",
+          "romaji": "chiisai",
+          "english": "small",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:55.019Z",
+        "input": "dsdsd"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:56.830Z",
+        "input": "sdsd"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T12:03:58.334Z",
+        "input": "sds"
+      }
+    ],
+    "correct_count": 0,
+    "wrong_count": 9,
+    "id": 8,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-04T22:38:10.616807",
+    "end_time": "2025-04-04T17:38:29.960Z",
+    "words_reviewed": [
+      {
+        "word": {
+          "id": 3,
+          "kanji": "家",
+          "romaji": "ie",
+          "english": "house",
+          "group": "Basic Nouns",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-04T17:38:20.852Z",
+        "input": "romahji"
+      }
+    ],
+    "correct_count": 0,
+    "wrong_count": 1,
+    "id": 9,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-05T00:19:19.738165",
+    "end_time": "2025-04-04T19:19:42.469Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 10,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-05T00:43:26.215362",
+    "end_time": "2025-04-04T19:43:30.124Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 11,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-05T01:46:28.254364",
+    "end_time": "2025-04-04T20:46:36.637Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 12,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Session_Test_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-05T00:43:26.215362",
+    "end_time": null,
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 11
+  },
+  {
+    "name": "Session_Test_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-05T01:46:28.254364",
+    "end_time": null,
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 12
+  },
+  {
+    "name": "Muzaffar_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-06T03:42:29.401265",
+    "end_time": "2025-04-05T22:43:07.557Z",
+    "words_reviewed": [
+      {
+        "word": {
+          "kanji": "本",
+          "romaji": "Hon",
+          "english": "Book",
+          "group": "Core Verbs",
+          "id": 16,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:34.793Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 4,
+          "kanji": "大きい",
+          "romaji": "ookii",
+          "english": "big",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:37.710Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 11,
+          "kanji": "小さい",
+          "romaji": "chiisai",
+          "english": "small",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:40.208Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 6,
+          "kanji": "明日",
+          "romaji": "ashita",
+          "english": "tomorrow",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:44.129Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:46.765Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 10,
+          "kanji": "来る",
+          "romaji": "kuru",
+          "english": "to come",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:50.151Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "kanji": "本",
+          "romaji": "Hon",
+          "english": "Book",
+          "group": "Core Verbs",
+          "id": 16,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:52.626Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 4,
+          "kanji": "大きい",
+          "romaji": "ookii",
+          "english": "big",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:54.793Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 14,
+          "kanji": "昨日",
+          "romaji": "kinou",
+          "english": "yesterday",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:42:57.115Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 6,
+          "kanji": "明日",
+          "romaji": "ashita",
+          "english": "tomorrow",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:43:00.269Z",
+        "input": "iku"
+      },
+      {
+        "word": {
+          "id": 10,
+          "kanji": "来る",
+          "romaji": "kuru",
+          "english": "to come",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:43:04.278Z",
+        "input": "iku"
+      }
+    ],
+    "correct_count": 0,
+    "wrong_count": 11,
+    "id": 14,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Muzaffar_Test",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-06T03:31:03.581673",
+    "end_time": "2025-04-05T22:31:44.988Z",
+    "words_reviewed": [
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:13.722Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:15.140Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 4,
+          "kanji": "大きい",
+          "romaji": "ookii",
+          "english": "big",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:17.380Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 14,
+          "kanji": "昨日",
+          "romaji": "kinou",
+          "english": "yesterday",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:19.556Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:21.442Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "kanji": "飲",
+          "romaji": "Simple",
+          "english": "Simple",
+          "group": "Core Verbs",
+          "id": 15,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:22.855Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 10,
+          "kanji": "来る",
+          "romaji": "kuru",
+          "english": "to come",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:24.648Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 9,
+          "kanji": "行く",
+          "romaji": "iku",
+          "english": "to go",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:25.940Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 5,
+          "kanji": "二",
+          "romaji": "ni",
+          "english": "two",
+          "group": "Numbers",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:27.385Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 5,
+          "kanji": "二",
+          "romaji": "ni",
+          "english": "two",
+          "group": "Numbers",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:28.631Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 6,
+          "kanji": "明日",
+          "romaji": "ashita",
+          "english": "tomorrow",
+          "group": "Time Expressions",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:30.262Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 10,
+          "kanji": "来る",
+          "romaji": "kuru",
+          "english": "to come",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:31.538Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 10,
+          "kanji": "来る",
+          "romaji": "kuru",
+          "english": "to come",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:32.881Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "kanji": "本",
+          "romaji": "Hon",
+          "english": "Book",
+          "group": "Core Verbs",
+          "id": 16,
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:34.852Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 13,
+          "kanji": "三",
+          "romaji": "san",
+          "english": "three",
+          "group": "Numbers",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:36.823Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 4,
+          "kanji": "大きい",
+          "romaji": "ookii",
+          "english": "big",
+          "group": "Core Adjectives",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:39.174Z",
+        "input": "turberu"
+      },
+      {
+        "word": {
+          "id": 2,
+          "kanji": "飲む",
+          "romaji": "nomu",
+          "english": "to drink",
+          "group": "Core Verbs",
+          "correct_count": 0,
+          "wrong_count": 0
+        },
+        "correct": false,
+        "timestamp": "2025-04-05T22:31:40.767Z",
+        "input": "turberu"
+      }
+    ],
+    "correct_count": 0,
+    "wrong_count": 17,
+    "id": 16,
+    "score": 0,
+    "completed": true
+  },
+  {
+    "name": "Muzaffar_3",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-06T03:42:29.401265",
+    "end_time": null,
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 14
+  },
+  {
+    "name": "Session_Test",
+    "duration": 60,
+    "word_group": "Core Verbs",
+    "start_time": "2025-04-06T04:15:59.953445",
+    "end_time": "2025-04-05T23:16:04.899Z",
+    "words_reviewed": [],
+    "correct_count": 0,
+    "wrong_count": 0,
+    "id": 15,
+    "score": 0,
+    "completed": true
+  }
+]

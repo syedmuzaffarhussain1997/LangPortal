@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block title %}Sessions{% endblock %}
+{% block content %}
+<div class="sessions-container">
+    <div class="sessions-header">
+        <div class="header-info">
+            <h1>Study Sessions</h1>
+            <p class="subtitle">Manage and track your learning sessions</p>
+        </div>
+        <button id="new-session-btn" class="primary-button" onclick="showModal()">
+            <span class="icon">➕</span>
+            Create New Session
+        </button>
+    </div>
+
+    <div id="session-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <h2>Create New Study Session</h2>
+                    <p class="modal-subtitle">Start your Japanese learning journey</p>
+                </div>
+                <button class="close-modal" onclick="hideModal()">×</button>
+            </div>
+            
+            <form id="session-form" class="session-form">
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="session-name">Session Name</label>
+                        <input type="text" 
+                               id="session-name" 
+                               required 
+                               placeholder="e.g., Morning Practice"
+                               class="form-input">
+                        <span class="form-hint">Give your session a memorable name</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="word-group">Word Group</label>
+                        <div class="select-wrapper">
+                            <select id="word-group" required class="form-select">
+                                <option value="" disabled selected>Select word group</option>
+                                <option value="Core Verbs">Core Verbs</option>
+                                <option value="Core Adjectives">Core Adjectives</option>
+                                <option value="Basic Nouns">Basic Nouns</option>
+                            </select>
+                        </div>
+                        <span class="form-hint">Choose words to practice</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="session-duration">Session Duration</label>
+                        <div class="duration-options">
+                            <label class="duration-option">
+                                <input type="radio" name="duration" value="3" checked>
+                                <span class="duration-box">
+                                    <span class="duration-time">3</span>
+                                    <span class="duration-unit">min</span>
+                                </span>
+                            </label>
+                            <label class="duration-option">
+                                <input type="radio" name="duration" value="5">
+                                <span class="duration-box">
+                                    <span class="duration-time">5</span>
+                                    <span class="duration-unit">min</span>
+                                </span>
+                            </label>
+                            <label class="duration-option">
+                                <input type="radio" name="duration" value="10">
+                                <span class="duration-box">
+                                    <span class="duration-time">10</span>
+                                    <span class="duration-unit">min</span>
+                                </span>
+                            </label>
+                            <label class="duration-option">
+                                <input type="radio" name="duration" value="custom">
+                                <span class="duration-box">
+                                    <span class="duration-time">...</span>
+                                    <span class="duration-unit">custom</span>
+                                </span>
+                            </label>
+                        </div>
+                        <div id="custom-duration" class="custom-duration" style="display: none;">
+                            <input type="number" 
+                                   id="custom-minutes" 
+                                   min="1" 
+                                   max="60" 
+                                   value="15"
+                                   class="form-input">
+                            <span class="unit">minutes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="secondary-button" onclick="hideModal()">Cancel</button>
+                    <button type="submit" class="primary-button">
+                        <span class="icon">▶️</span>
+                        Start Session
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <h2>Study Sessions History</h2>
+    <div class="sessions-filters">
+        <input type="date" id="date-filter">
+        <select id="group-filter">
+            <option value="">All Groups</option>
+        </select>
+    </div>
+    <table class="sessions-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Duration</th>
+                <th>Words Reviewed</th>
+                <th>Accuracy</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="sessions-list">
+            <!-- Sessions will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+function showModal() {
+    document.getElementById('session-modal').style.display = 'block';
+    document.getElementById('session-name').focus();
+}
+
+function hideModal() {
+    document.getElementById('session-modal').style.display = 'none';
+}
+</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/sessions.js') }}"></script>
+{% endblock %}

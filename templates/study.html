@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Study{% endblock %}
+{% block content %}
+<div class="study-container">
+    <div class="game-header">
+        <div class="session-info">
+            <div class="session-title">
+                <h2 id="session-name"></h2>
+                <p class="word-group-label" id="word-group-label"></p>
+            </div>
+            <div class="session-progress">
+                <div class="progress-ring"></div>
+            </div>
+        </div>
+        <div class="game-stats">
+            <div class="stat-box">
+                <span class="stat-icon">🎯</span>
+                <div class="stat-content">
+                    <span class="stat-label">Score</span>
+                    <span id="score" class="stat-value">0</span>
+                </div>
+            </div>
+            <div class="stat-box">
+                <span class="stat-icon">⏱️</span>
+                <div class="stat-content">
+                    <span class="stat-label">Time</span>
+                    <span id="timer" class="stat-value">0:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="game-area" class="game-area">
+        <div id="word-container"></div>
+        <div class="input-area">
+            <div class="input-wrapper">
+                <input type="text" 
+                       id="word-input" 
+                       placeholder="Type the Romaji..." 
+                       autocomplete="off"
+                       autocapitalize="off">
+                <div class="input-indicator"></div>
+            </div>
+            <div class="input-hint">Press Enter to submit</div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+    if (!localStorage.getItem('current_session')) {
+        window.location.href = '/sessions';
+    }
+</script>
+<script src="{{ url_for('static', filename='js/study.js') }}"></script>
+{% endblock %}

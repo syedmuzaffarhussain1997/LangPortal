@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Vocabulary Management{% endblock %}
+{% block content %}
+<div class="words-container">
+    <div class="words-header">
+        <div class="header-content">
+            <h1>Vocabulary Management</h1>
+            <p class="subtitle">Manage and organize your Japanese vocabulary</p>
+        </div>
+        <button id="add-word-btn" class="primary-button">
+            <span class="icon">➕</span> Add New Word
+        </button>
+    </div>
+
+    <div class="words-toolbar">
+        <div class="search-group">
+            <div class="import-actions">
+                <button id="import-json" class="secondary-button">
+                    <span class="icon">📄</span> Import JSON
+                </button>
+                <button id="import-excel" class="secondary-button">
+                    <span class="icon">📊</span> Import Excel
+                </button>
+                <div class="template-buttons">
+                    <button id="download-template" class="secondary-button">
+                        <span class="icon">📥</span> Download JSON Template
+                    </button>
+                    <button id="download-excel-template" class="secondary-button">
+                        <span class="icon">📥</span> Download Excel Template
+                    </button>
+                </div>
+                <input type="file" id="file-input" style="display: none" accept=".json,.xlsx,.xls,.csv">
+            </div>
+            <div class="search-filters">
+                <input type="text" id="search-word" placeholder="Search words..." class="search-input">
+                <select id="group-select" class="filter-select">
+                    <option value="">All Groups</option>
+                    <option value="Core Verbs">Core Verbs</option>
+                    <option value="Core Adjectives">Core Adjectives</option>
+                    <option value="Basic Nouns">Basic Nouns</option>
+                    <option value="Numbers">Numbers</option>
+                    <option value="Time Expressions">Time Expressions</option>
+                </select>
+            </div>
+            <div class="view-toggle">
+                <button id="grid-view" class="active">Grid View</button>
+                <button id="table-view">Table View</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="words-content">
+        <div id="words-grid" class="words-grid-wrapper">
+            <div class="words-grid"></div>
+        </div>
+        <div id="words-table-container" class="words-table-wrapper" style="display: none;">
+            <table class="words-table">
+                <thead>
+                    <tr>
+                        <th>Kanji</th>
+                        <th>Romaji</th>
+                        <th>English</th>
+                        <th>Group</th>
+                        <th>Correct</th>
+                        <th>Incorrect</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="words-table-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="word-modal" class="modal" style="display: none;">
+        <div class="modal-content word-form-modal">
+            <div class="modal-header">
+                <div>
+                    <h2 id="modal-title">Add New Word</h2>
+                    <p class="modal-subtitle">Add a new word to your vocabulary</p>
+                </div>
+                <button class="close-modal" onclick="hideWordModal()">×</button>
+            </div>
+            <form id="word-form" class="word-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="word-kanji">Kanji/Kana</label>
+                        <input type="text" id="word-kanji" required class="form-input">
+                        <span class="form-hint">Enter the Japanese characters</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="word-romaji">Romaji</label>
+                        <input type="text" id="word-romaji" required class="form-input">
+                        <span class="form-hint">Enter the romanized reading</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="word-english">English</label>
+                        <input type="text" id="word-english" required class="form-input">
+                        <span class="form-hint">Enter the English translation</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="word-group">Word Group</label>
+                        <select id="word-group" required class="form-select">
+                            <option value="Core Verbs">Core Verbs</option>
+                            <option value="Core Adjectives">Core Adjectives</option>
+                            <option value="Basic Nouns">Basic Nouns</option>
+                            <option value="Numbers">Numbers</option>
+                            <option value="Time Expressions">Time Expressions</option>
+                        </select>
+                        <span class="form-hint">Select the word category</span>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="secondary-button close-modal" onclick="hideWordModal()">Cancel</button>
+                    <button type="submit" class="primary-button">Save Word</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/words.js') }}"></script>
+{% endblock %}

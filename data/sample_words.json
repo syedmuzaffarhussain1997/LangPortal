@@ -1,0 +1,148 @@
+{
+    "words": [
+        {
+            "id": 2,
+            "kanji": "飲む",
+            "romaji": "nomu",
+            "english": "to drink",
+            "group": "Core Verbs",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 3,
+            "kanji": "家",
+            "romaji": "ie",
+            "english": "house",
+            "group": "Basic Nouns",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 4,
+            "kanji": "大きい",
+            "romaji": "ookii",
+            "english": "big",
+            "group": "Core Adjectives",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 5,
+            "kanji": "二",
+            "romaji": "ni",
+            "english": "two",
+            "group": "Numbers",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 6,
+            "kanji": "明日",
+            "romaji": "ashita",
+            "english": "tomorrow",
+            "group": "Time Expressions",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 7,
+            "kanji": "学生",
+            "romaji": "gakusei",
+            "english": "student",
+            "group": "Basic Nouns",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 9,
+            "kanji": "行く",
+            "romaji": "iku",
+            "english": "to go",
+            "group": "Core Verbs",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 10,
+            "kanji": "来る",
+            "romaji": "kuru",
+            "english": "to come",
+            "group": "Core Verbs",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 11,
+            "kanji": "小さい",
+            "romaji": "chiisai",
+            "english": "small",
+            "group": "Core Adjectives",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 12,
+            "kanji": "水",
+            "romaji": "mizu",
+            "english": "water",
+            "group": "Basic Nouns",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 13,
+            "kanji": "三",
+            "romaji": "san",
+            "english": "three",
+            "group": "Numbers",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "id": 14,
+            "kanji": "昨日",
+            "romaji": "kinou",
+            "english": "yesterday",
+            "group": "Time Expressions",
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "kanji": "飲",
+            "romaji": "Simple",
+            "english": "Simple",
+            "group": "Core Verbs",
+            "id": 15,
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "kanji": "本",
+            "romaji": "Hon",
+            "english": "Book",
+            "group": "Core Verbs",
+            "id": 16,
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "kanji": "食べ物",
+            "romaji": "tabemono",
+            "english": "food",
+            "group": "Basic Nouns",
+            "id": 18,
+            "correct_count": 0,
+            "wrong_count": 0
+        },
+        {
+            "kanji": "食べ物",
+            "romaji": "tabemono",
+            "english": "food",
+            "group": "Basic Nouns",
+            "id": 20,
+            "correct_count": 0,
+            "wrong_count": 0
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block content %}
+<div class="settings-container">
+    <div class="settings-header">
+        <h1>Settings</h1>
+        <p class="subtitle">Customize your learning experience</p>
+    </div>
+
+    <form id="settings-form" class="settings-form">
+        <div class="setting-group">
+            <div class="setting-group-header">
+                <h3>Appearance</h3>
+                <p class="setting-description">Customize the visual appearance of the application</p>
+            </div>
+            <div class="setting-controls">
+                <div class="setting-item">
+                    <label for="theme-select">Theme</label>
+                    <select id="theme-select" class="form-select">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="system">System Default</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label for="primary-color">Primary Color</label>
+                    <div class="color-picker-wrapper">
+                        <input type="color" id="primary-color" value="#4a90e2">
+                        <span class="color-preview"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-group">
+            <div class="setting-group-header">
+                <h3>Study History</h3>
+                <p class="setting-description">Manage your study data and session history</p>
+            </div>
+            <div class="setting-controls">
+                <div class="setting-actions">
+                    <button type="button" id="reset-history" class="danger-button">
+                        <span class="icon">🗑️</span>
+                        Reset Study History
+                    </button>
+                    <button type="button" id="export-data" class="secondary-button">
+                        <span class="icon">📥</span>
+                        Export Study Data
+                    </button>
+                </div>
+                <p class="setting-warning">Note: Resetting study history only removes your session data and cannot be undone.</p>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="primary-button">
+                <span class="icon">💾</span>
+                Save Settings
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+{% endblock %}

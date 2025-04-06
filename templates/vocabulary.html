@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="vocabulary-container">
+    <div class="upload-section">
+        <h2>Vocabulary Management</h2>
+        <div class="file-upload">
+            <input type="file" id="vocabulary-file" accept=".json,.xls,.xlsx">
+            <button id="upload-btn" class="primary-button">Upload Words</button>
+        </div>
+    </div>
+
+    <div id="word-list" class="words-grid">
+        <!-- Words will be populated here -->
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/vocabulary.js') }}"></script>
+{% endblock %}

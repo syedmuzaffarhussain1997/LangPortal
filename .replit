@@ -1,0 +1,18 @@
+language = "python3"
+entrypoint = "main.py"
+run = "python main.py"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+PYTHONPATH = "${PYTHONPATH}:${workspaceFolder}"
+FLASK_APP = "main.py"
+FLASK_ENV = "production"
+
+[languages.python3]
+pattern = "**/*.py"
+syntax = "python"
+
+[languages.python3.languageServer]
+start = ["pylsp"]

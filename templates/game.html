@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Tutor Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="study-container">
+        <div class="game-header">
+            <div class="session-info">
+                <h2>Typing Practice</h2>
+                <p class="word-group-label">Score: <span id="score">0</span></p>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <div id="word-container"></div>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" id="word-input" autocomplete="off" placeholder="Type the word...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>
