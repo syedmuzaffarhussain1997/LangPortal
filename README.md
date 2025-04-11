@@ -151,12 +151,6 @@ python app.py
 4. Mobile application
 5. Cloud synchronization
 
-## Contributing 🤝
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-## Support & Issues 🔧
-Visit our [GitHub Issues](https://github.com/yourusername/LangPortal/issues) page for support.
-
 ---
 
-Developed with ❤️ by Muzaffar Hussain | [GitHub](https://github.com/yourusername)
+Developed with ❤️ by Muzaffar Hussain | [GitHub](https://github.com/syedmuzaffarhussain1997)
