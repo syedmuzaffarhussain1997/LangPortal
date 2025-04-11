@@ -28,12 +28,9 @@ LangPortal is a modern, gamified web application crafted to transform language l
 - HTML5
 - CSS3 (Custom Properties)
 - JavaScript (ES6+)
-- Material Icons
 
 ### Backend
 - Python 3.x
-- Flask Framework
-- RESTful API
 
 ### Storage
 - JSON File System
