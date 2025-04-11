@@ -95,7 +95,7 @@ python app.py
 ### Running Locally
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/LangPortal.git
+git clone https://github.com/syedmuzaffarhussain1997/LangPortal.git
 cd LangPortal
 ```
 
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-5. Access at: `http://localhost:5000`
+5. Access at: `http://localhost:8000`
 
 ## Development Journey 💡
 
