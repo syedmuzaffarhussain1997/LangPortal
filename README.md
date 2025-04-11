@@ -25,12 +25,22 @@ LangPortal is a modern, gamified web application crafted to transform language l
 ## Tech Stack 🛠️
 
 ### Frontend
-- HTML5
-- CSS3 (Custom Properties)
-- JavaScript (ES6+)
+- **HTML**: The foundation for structuring the web interface and templates.
+- **CSS**: Provides styling, theming, and responsive design for a polished user experience.
+- **JavaScript**: Powers client-side interactivity, including game logic and animations.
+- **Jinja2**: A templating engine for dynamic HTML rendering with Flask.
+- **Google Fonts**: Integrates the Inter font family for consistent and modern typography.
+- **Material Icons**: Adds intuitive and visually appealing icons to enhance the UI.
+
 
 ### Backend
-- Python 3.x
+- **Python**: The core programming language for building the server-side logic and API.
+- **FastAPI**: A modern, high-performance web framework for creating fast and scalable APIs.
+- **Flask**: A lightweight web framework for rendering HTML templates and handling frontend routes.
+- **Uvicorn**: An ASGI server implementation for running the FastAPI application efficiently.
+- **Pandas**: A powerful library for processing Excel and CSV files during data imports.
+- **JSON**: Used for data serialization and storage in local file-based persistence.
+
 
 ### Storage
 - JSON File System
