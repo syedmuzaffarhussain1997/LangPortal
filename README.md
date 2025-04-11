@@ -167,8 +167,8 @@ python app.py
 
 I’m a dedicated developer with a passion for creating innovative solutions and advancing technology. Explore my work and connect with me to discuss projects, opportunities, or ideas!
 
-- **Online Resume** 🌐: Discover my projects and achievements at [muzaffardev.netlify.app](https://muzaffardev.netlify.app)
-- **Email** 📬: Reach me directly at [muzaffar.ai.engineer@gmail.com](mailto:muzaffar.ai.engineer@gmail.com)
+- **Online Resume** 🌐 Discover my projects and achievements at [muzaffardev.netlify.app](https://muzaffardev.netlify.app)
+- **Email** 📬 Reach me directly at [muzaffar.ai.engineer@gmail.com](mailto:muzaffar.ai.engineer@gmail.com)
 
 
 ---
