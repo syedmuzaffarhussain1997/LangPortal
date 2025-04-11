@@ -1,10 +1,10 @@
 language = "python3"
-entrypoint = "app.py"
 run = "python app.py"
 hidden = [".env", "*.pyc", ".DS_Store", "__pycache__"]
+modules = ["nodejs-20", "web", "python-3.12", "nix"]
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-24_05"
 
 [env]
 PYTHONPATH = "${PYTHONPATH}:${workspaceFolder}"
@@ -22,3 +22,22 @@ guessImports = true
 [server]
 host = "0.0.0.0"
 port = "443"
+
+[deployment]
+run = ["sh", "-c", "python main.py"]
+
+[[ports]]
+localPort = 443
+externalPort = 80
+
+[workflows]
+runButton = "Run App"
+
+[[workflows.workflow]]
+name = "Run App"
+author = 41169369
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"
