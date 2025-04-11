@@ -22,25 +22,27 @@ LangPortal is a modern, gamified web application crafted to transform language l
 - **Performance Analytics:** Detailed progress insights
 - **History Tracking:** Session review capabilities
 
-## Tech Stack 🛠️
+## Technology Stack 🛠️
 
-### Frontend
-- **HTML**: The foundation for structuring the web interface and templates.
-- **CSS**: Provides styling, theming, and responsive design for a polished user experience.
-- **JavaScript**: Powers client-side interactivity, including game logic and animations.
-- **Jinja2**: A templating engine for dynamic HTML rendering with Flask.
-- **Google Fonts**: Integrates the Inter font family for consistent and modern typography.
-- **Material Icons**: Adds intuitive and visually appealing icons to enhance the UI.
+## Frontend
 
+- **HTML**: Structure for web pages and templates.
+- **CSS**: Custom styling with theme support and animations.
+- **JavaScript**: Client-side interactivity and API communication.
+- **Jinja2**: Templating engine for dynamic HTML rendering.
+- **Google Fonts**: Typography enhancement with the Inter font family.
+- **Material Icons**: Iconography for intuitive UI elements.
 
-### Backend
-- **Python**: The core programming language for building the server-side logic and API.
-- **FastAPI**: A modern, high-performance web framework for creating fast and scalable APIs.
-- **Flask**: A lightweight web framework for rendering HTML templates and handling frontend routes.
-- **Uvicorn**: An ASGI server implementation for running the FastAPI application efficiently.
-- **Pandas**: A powerful library for processing Excel and CSV files during data imports.
-- **JSON**: Used for data serialization and storage in local file-based persistence.
+## Backend
 
+- **Python**: Core programming language for server-side logic.
+- **FastAPI**: High-performance API framework for RESTful endpoints.
+- **Flask**: Lightweight framework for frontend rendering and routing.
+- **Uvicorn**: ASGI server for running the FastAPI application.
+- **Pydantic**: Data validation and modeling for structured data.
+- **Pandas**: Library for processing CSV and Excel file imports.
+- **Pathlib**: File path management for cross-platform compatibility.
+- **JSON**: Data serialization and storage format.
 
 ### Storage
 - JSON File System
