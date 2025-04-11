@@ -123,7 +123,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Try LangPortal live on Replit [![Run on Replit](https://replit.com/badge/github/muzaffarcodes/LangPortal)](https://replit.com/@muzaffarcodes/LangPortal)
+Try LangPortal live on Replit 
+[![Run on Replit](https://replit.com/badge/github/muzaffarcodes/LangPortal)](https://replit.com/@muzaffarcodes/LangPortal)
 
 
 ### Running Locally
