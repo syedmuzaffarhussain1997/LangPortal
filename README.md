@@ -153,4 +153,21 @@ python app.py
 
 ---
 
+## Let's Connect 🌐
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://pk.linkedin.com/in/muzaffarhussain1)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/MuzaffarCodes)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syedmuzaffarhussain1997)
+
+</div>
+
+### Professional Profile 👨‍💻
+
+- 📝 [Online Resume](https://muzaffardev.netlify.app)
+- 📫 How to reach me: muzaffar.ai.engineer@gmail.com
+
+---
+
 Developed with ❤️ by Muzaffar Hussain | [GitHub](https://github.com/syedmuzaffarhussain1997)
