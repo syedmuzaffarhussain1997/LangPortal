@@ -60,23 +60,54 @@ LangPortal/
 
 ## Core Components 🎯
 
-### Study Game Engine
-```javascript
-class StudyGame {
-    // Falling Kanji game mechanics
-    // Real-time scoring system
-    // Performance tracking
-}
+## 1. Application Setup 🚀
+```python
+# Initialize FastAPI and Flask apps
+from fastapi import FastAPI
+from flask import Flask, render_template, send_from_directory
+
+api_app = FastAPI()
+api_app.include_router(router)
+flask_app = Flask(__name__)
 ```
 
-### Vocabulary Manager
-```javascript
-class WordsManager {
-    // CRUD operations
-    // Data import/export
-    // Search functionality
-}
+## 2. Route Management 🛣️
+```python
+# Core route definitions
+@flask_app.route('/')
+def home():
+    return render_template('dashboard.html')
+
+@flask_app.route('/study')
+def study():
+    return render_template('study.html')
 ```
+
+## 3. Static File Handling 📁
+```python
+@flask_app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
+```
+
+## 4. Server Configuration ⚙️
+```python
+if __name__ == "__main__":
+    uvicorn.run(api_app, host="127.0.0.1", port=8000)
+```
+
+## Available Routes 🗺️
+
+| Route | Description | Template |
+|-------|-------------|----------|
+| `/` | Main Dashboard | `dashboard.html` |
+| `/study` | Study Interface | `study.html` |
+| `/sessions` | Session Management | `sessions.html` |
+| `/words` | Word Management | `words.html` |
+| `/settings` | Settings Panel | `settings.html` |
+| `/word-history` | Word History | `word_history.html` |
+| `/about` | About Page | `about.html` |
+
 
 ## Running the Application 🚀
 
