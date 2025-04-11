@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+     pkgs.glibcLocales
+     pkgs.libxcrypt
     pkgs.python39
     pkgs.python39Packages.pip
     pkgs.sqlite
