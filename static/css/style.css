@@ -1253,7 +1253,8 @@ button .button-text {
     }
     .game-area {
         padding: 2rem;
-        min-height: 250px;
+        /* min-height: 250px; */
+        min-height: 400px;
     }
 }
 
@@ -1264,7 +1265,8 @@ button .button-text {
     }
     .game-area {
         padding: 1.5rem;
-        min-height: 200px;
+        /* min-height: 200px; */
+        min-height: 400px;
     }
 }
 
@@ -1275,7 +1277,8 @@ button .button-text {
     }
     .game-area {
         padding: 1rem;
-        min-height: 180px;
+        /* min-height: 180px; */
+        min-height: 350px;
     }
 }
 
